@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>OTP</title>
+</head>
+<script>
+// Topic
+// javascript function to generate OTP
+
+const generateOtp = (otpLength) =>  {
+  let otp = "";
+  
+  for(let i = 0; i < otpLength; i++) {
+    otp += MATH.floor(math.random() * 10);
+  }
+  // this will return otp as string
+  // return otp;
+  // this will return otp as number
+  return Number(otp);
+};
+
+console.log("generateOtp 3- ", generateOtp(3));
+</script>
+<body>
+
+</body>
+
+</html>
